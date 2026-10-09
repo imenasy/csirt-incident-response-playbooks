@@ -48,13 +48,13 @@ Do not reboot or power cycle running machines. Capture volatile RAM for key-extr
 vim-cmd vmsvc/snapshot.create <VM_ID> "IR_RAM_DUMP" "Forensic Memory Preservation" 1 0
 
 ## 4. Phase 3: Eradication & System Recovery (Hours 1 – 6)
-Malware Vector Identification: Locate initial vector (e.g., unpatched edge VPN appliance, credential compromise, spear-phishing).
+**Malware Vector Identification:** Locate initial vector (e.g., unpatched edge VPN appliance, credential compromise, spear-phishing).
 
-Directory Services Audit: Rotate all Domain Controller Krbtgt account passwords twice; invalidate Kerberos ticket grants.
+**Directory Services Audit:** Rotate all Domain Controller Krbtgt account passwords twice; invalidate Kerberos ticket grants.
 
-WORM Backup Verification: Verify integrity of air-gapped, immutable Veeam/ZFS storage snapshots prior to restore operations.
+**WORM Backup Verification:** Verify integrity of air-gapped, immutable Veeam/ZFS storage snapshots prior to restore operations.
 
-Restoration Priority:
+**Restoration Priority:**
 
 **Step 1:** Active Directory & PKI root services.
 
