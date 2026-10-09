@@ -56,17 +56,17 @@ WORM Backup Verification: Verify integrity of air-gapped, immutable Veeam/ZFS st
 
 Restoration Priority:
 
-** Step 1: ** Active Directory & PKI root services.
+**Step 1:** Active Directory & PKI root services.
 
-** Step 2: ** Core Banking PostgreSQL/Oracle settlement databases.
+**Step 2:** Core Banking PostgreSQL/Oracle settlement databases.
 
-** Step 3: ** RIPPS  / RNDPS payment interconnect nodes.
+**Step 3:** RIPPS  / RNDPS payment interconnect nodes.
 
-** Step 4: ** District SACCO branch reporting servers.
+**Step 4:** District SACCO branch reporting servers.
 
 ## 5. Phase 4: Regulatory Disclosures & Post-Mortem
-BNR Compliance Notification: Submit the initial BNR Cyber Incident Notification within the statutory 2-hour window.
+**BNR Compliance Notification:** Submit the initial BNR Cyber Incident Notification within the statutory 2-hour window.
 
-Data Protection Authority Notice: Complete Law Nº 058/2021 Data Protection breach advisory within 48 hours to the National Cyber Security Authority (NCSA).
+**Data Protection Authority Notice:** Complete Law Nº 058/2021 Data Protection breach advisory within 48 hours to the National Cyber Security Authority (NCSA).
 
-Post-Incident Review (PIR): Convene blameless retrospective with Head of IT and Senior Managers within 5 business days. Document root-cause timeline and lessons learned.
+**Post-Incident Review (PIR):** Convene blameless retrospective with Head of IT and Senior Managers within 5 business days. Document root-cause timeline and lessons learned.
