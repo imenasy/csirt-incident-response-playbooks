@@ -32,7 +32,11 @@ config firewall policy
         set status disable
     next
 end
-Action B: CrowdStrike Falcon API Network Containment
+
+```
+## Action B: CrowdStrike Falcon API Network Containment
+
+```bash
 Bash
 # Force host network isolation via Falcon API
 curl -X POST "[https://api.crowdstrike.com/devices/entities/devices-actions/v1?action_name=contain](https://api.crowdstrike.com/devices/entities/devices-actions/v1?action_name=contain)" \
