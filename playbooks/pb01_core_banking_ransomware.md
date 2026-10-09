@@ -43,10 +43,11 @@ curl -X POST "[https://api.crowdstrike.com/devices/entities/devices-actions/v1?a
   -H "Authorization: Bearer ${FALCON_TOKEN}" \
   -H "Content-Type: application/json" \
   -d '{"ids": ["a89012bc34de56fa"]}'
-Action C: Memory Preservation Before Power Action
+```
+## Action C: Memory Preservation Before Power Action
 Do not reboot or power cycle running machines. Capture volatile RAM for key-extraction:
 
-```
+
 
 # Hypervisor-level memory snapshot via ESXi Shell
 vim-cmd vmsvc/snapshot.create <VM_ID> "IR_RAM_DUMP" "Forensic Memory Preservation" 1 0
